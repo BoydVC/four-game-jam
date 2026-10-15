@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Four-Game Jam</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<canvas id="bg"></canvas>
+<section id="hub" class="screen on">
+  <header class="hero">
+    <div class="kicker">ONE CARTRIDGE · FOUR GAMES · ZERO INTERNET</div>
+    <h1><span>FOUR</span><span>-GAME</span><span>JAM</span></h1>
+    <p>Defend the castle, build a robot factory, play real CHIP-8 cartridges, and blast your way to the boss.</p>
+  </header>
+  <div id="cards"></div>
+  <footer class="hubfoot"><kbd>1</kbd>–<kbd>4</kbd> open a game · <kbd>Esc</kbd> back to the hub · <kbd>M</kbd> mute · <button id="hubmute" class="ghost"></button></footer>
+</section>
+<section id="play" class="screen">
+  <div id="topbar">
+    <button id="back" title="Back to hub (Esc)">&larr; Hub</button>
+    <h2 id="gtitle">Game</h2>
+    <span id="gstatus"></span>
+    <button id="mute" title="Mute (M)"></button>
+  </div>
+  <div id="stage">
+    <div id="cvwrap"><canvas id="cv" width="960" height="600"></canvas></div>
+    <aside id="panel"></aside>
+  </div>
+</section>
+<script src="audio.js"></script>
+<script src="roms.js"></script>
+<script src="chip8.js"></script>
+<script src="td.js"></script>
+<script src="factory.js"></script>
+<script src="shooter.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
