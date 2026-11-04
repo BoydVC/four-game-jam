@@ -1,6 +1,6 @@
 # Four-Game Jam
 
-One offline cartridge with four real browser games for Char and Vic, all vanilla JS + canvas in a single HTML file.
+One offline cartridge with four real browser games for Alex and Sam, all vanilla JS + canvas in a single HTML file.
 
 | # | Game | What it is | Win |
 |---|------|-----------|-----|
